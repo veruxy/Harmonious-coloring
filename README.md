@@ -7,7 +7,7 @@ The project contains:
 
 2. Two input files for the program: harmoniuos.in and harmoniuos_adj.in
 
-3. 3 input file samples: graph_8.in, graph_10.in and graph_12.in containing the adjacent lists of all 3-regular graphs with 8, 10 and 12 vertices, respectively.
+3. Three input file samples: graph_8.in, graph_10.in and graph_12.in containing the adjacent lists of all 3-regular graphs with 8, 10 and 12 vertices, respectively.
 
 The program can take as input a graph given in file harmonious.in by the list of its edges or a lists of graphs with the same number of vertices given by adjacent lists, given in file harmoniuos_adj.in. These input files have the following structure:
 
