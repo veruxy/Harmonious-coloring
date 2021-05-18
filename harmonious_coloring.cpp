@@ -67,11 +67,12 @@ int color_graph(){
 void print_to_file(ofstream &h){
 	
 
-	h<<"hc = "<<*max_element(min_colors,min_colors+n)<<endl;
+	h<<"h = "<<*max_element(min_colors,min_colors+n)<<endl;
 	for(int j=0;j<n;j++)
 		h<<min_colors[j]<<"  ";
 	h<<endl;
 	h<<"diameter = "<<diameter()<<endl; 
+	h<<endl;
 
 }
 
